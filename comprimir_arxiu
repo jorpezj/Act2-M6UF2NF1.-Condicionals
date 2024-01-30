@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p 'Ruta arxiu a comprimir: ' ruta
+read -p 'Nom de arxiu comprimit?: ' comp
+
+zip $comp $ruta
