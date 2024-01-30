@@ -1,0 +1,5 @@
+#!/bin/bash
+	read -p "Introdueix nº enter : " ALT1
+	if [ $ALT1 != 3 ]; then
+		echo "error!!"
+	fi
