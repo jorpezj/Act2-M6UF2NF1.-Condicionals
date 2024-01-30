@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p 'Ruta: ' ruta
+if [ -d $ruta ]
+then
+	echo "És un directori."
+else
+	echo "És un arxiu i la seva extensió és: ${ruta##*.}"
+fi
