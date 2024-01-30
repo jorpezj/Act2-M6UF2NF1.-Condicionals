@@ -1,0 +1,5 @@
+#!/bin/bash
+	read -p "Introdueix nº enter : " ALT1
+	if [ $ALT1 == 0 ]; then
+		echo "nº és 0."
+	fi
