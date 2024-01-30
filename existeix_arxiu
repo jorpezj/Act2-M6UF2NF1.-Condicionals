@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p 'Ruta: ' ruta
+if [ -f $ruta ]
+then
+	echo "És un arxiu"
+else
+	echo "No ho és"
+fi
