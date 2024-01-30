@@ -1,0 +1,14 @@
+#!/bin/bash
+read -p 'Ruta: ' ruta
+if [ -x $ruta ]
+then 
+	echo "Té permisos d'execució."
+fi
+if [ -r $ruta ]
+then
+	echo "Té permisos de lectura."
+fi
+if [ -w $ruta ]
+then
+	echo "Té permisos d'escriptura."
+fi
